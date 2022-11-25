@@ -9,8 +9,8 @@ namespace TesteCielo.Services
     public class CieloSaleService
     {
         private readonly string _urlRequest = "https://apisandbox.cieloecommerce.cielo.com.br/1/sales";
-        private string _merchantId = "db5b8db0-f6a8-4e41-91a3-befe3322f2bc";
-        private string _merchantKey = "RZXISHSULGEQFBWNSHIAVNXYMUKEQFAKPAHCMAAJ";
+        private string _merchantId = "SEU ID";
+        private string _merchantKey = "SUA CHAVE";
 
         public Dictionary<bool, string> CreateTransactionCreditCard(CieloCreditCardModel cieloCreditCard)
         {
